@@ -40,8 +40,16 @@
 **<font color="Red">送られた画像に対して怒ったようなコメントをすると、怒りの度合いを検知して謝罪が返ってきます</font>**  
 　　　![bot_flow06](images/bot_flow06.png)  
 
-# Deploy to IBM Cloud!
+# Deploy to IBM Cloud
+## Deploy to IBM CLoudボタンで一発デプロイ
 [![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/motokazu/liteaccount-conversation-bot-sample.git&branch=master)
+
+## デプロイ後の作業
+### 必要な項目のセットアップ
+下記の LINE のセットアップ、Conversationのセットアップを行う
+
+### 環境変数をセットアップ
+デプロイされたNode Runtimeの環境変数に、下記 4.3で生成したLINE Bot Access TokenをlineBotAccessTokenに設定し、7.6で取得したConvesation IDをconvesationIDに設定しアプリを再起動する
 
 # 3. セットアップ手順(step)
 #### 前提条件
